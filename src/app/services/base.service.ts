@@ -9,7 +9,7 @@ export class BaseService {
 
   private headers: HttpHeaders | undefined;
 
-  private url = "http://enfermeria.test/api/";
+  private url = "https://enfermeriamarlen.herokuapp.com/api/";
 
   constructor(private _http: HttpClient) {
     // 'client_url' => https://almacen-client.herokuapp.com
